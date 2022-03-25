@@ -1,0 +1,26 @@
+/*Rebecca Price 2022 */
+
+body {
+	background-image: radial-gradient(circle, #1F4F80, #3CAED0, #38EDF0)
+}
+
+
+#div1 {
+    height: 200px;
+	width: 80%;
+	padding: 10px;
+    margin: 0 auto;
+	background-color: cyan;
+    border-style: solid;
+	border-width: 5px;
+    border-color: black;
+}
+
+#mapdiv {
+	height: 350px;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #4F99A7;
+
+
+}
