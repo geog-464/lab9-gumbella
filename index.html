@@ -9,15 +9,35 @@
 		<link rel="stylesheet" href="css/styles.css">
         
 		<!--you can also place internal styles here; you would place these within <style> tags-->
+            <!-- link to data -->
+        <script type="text/javascript" src="data/megacities.js"></script>
+        <!-- link to leaflet styles -->
+        <link rel="stylesheet" type="text/css" href="lib/leaflet/leaflet.css" />
+        <!-- link to leaflet scripts -->
+        <script type="text/javascript" src="lib/leaflet/leaflet.js"></script>
     </head>
 
     <body>
         <!--put your initial page content here-->
-		
+		<div id="div1">
+            This is inside basic html container
+            <p>This is text contained inside of a standard easily-stylable tag</p>
+            <!--Question 2: THe javascript script is written last because the files are loaded from top down, so whatever is loaded last will show up over anything that was coded before it -->
+            <p>Question 3: The onload method happens when the webpage is completely loaded, having loaded whatever you want to put on it, and will load javascript. It's good to load javascript this way because it loads it last and makes sure that javascript is loaded properly.</p>
+            <p>Question 4: The datatype of cityPop is an array and it contains string and integer objects. It most resembles the dictionary Python data type.  </p>
+        </div>
+        <br>
+        <div id="mapdiv">
+
+        </div>
         <!--you can also use this space for internal scripts; you would place these within <script> tags-->
 
         <!--put your external script links here-->
         <script type="text/javascript" src="js/main.js"></script>
-		<script type="text/javascript" src="data/megacities.js"></script>
+		
     </body>
+
+    <footer class="footer">
+        Rebecca Price GEOG 464 W22
+    </footer>
 </html>
